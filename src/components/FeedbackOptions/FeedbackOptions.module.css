@@ -1,0 +1,20 @@
+.buttonsList {
+    margin-top: 20px;
+}
+
+.buttons {
+    padding: 8px 16px;
+    border-collapse: collapse;
+    color: #000000;
+    font-family: Lucida Sans Unicode, Lucida Grande, Sans-Serif;
+    font-size: 16px;
+}
+
+.buttons:hover,
+.buttons:focus {
+    background: #188ce8;
+}
+
+.buttons:not(:last-child) {
+    margin-right: 10px;
+}
